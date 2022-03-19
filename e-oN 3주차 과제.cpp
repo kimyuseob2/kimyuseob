@@ -6,8 +6,8 @@ int main()
     int numArr[6] = {0};
     int iReturn = 0;
 
-    printf("¼ıÀÚ 6°³¸¦ ÀÔ·ÂÇÏ½Ã¿À : ");
-    scanf("%d %d %d %d %d %d", &numArr[0], &numArr[1], &numArr[2], &numArr[3], &numArr[4], &numArr[5]);
+    printf("ìˆ«ì 6ê°œë¥¼ ì…ë ¥í•˜ì‹œì˜¤ : ");
+    scanf_s("%d, %d, %d, %d, %d, %d", &numArr[0], &numArr[1], &numArr[2], &numArr[3], &numArr[4], &numArr[5]);
 
 
     for (int isum = 0; isum < 6; isum++)
@@ -16,6 +16,6 @@ int main()
         iReturn += numArr[isum];
     }
 
-    printf("ÀÔ·ÂÇÏ½Å ¼ıÀÚÀÇ ÇÕÀº %dÀÔ´Ï´Ù.", iReturn);
+    printf("ì…ë ¥í•˜ì‹  ìˆ«ìì˜ í•©ì€ %dì…ë‹ˆë‹¤.", iReturn);
 
    }
