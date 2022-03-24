@@ -7,7 +7,7 @@ def bubbleSort(arr):
                 arr[j], arr[j + 1] = arr[j + 1], arr[j]
                 
                 
-arr = list(map(int,input("무작위 숫자 6개를 입력하시오.\n:").split(" ")))  
+arr = list(map(int,input("무작위 숫자들을 입력하시오.\n:").split(" ")))  
 
 bubbleSort(arr)
 
