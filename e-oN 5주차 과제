@@ -13,3 +13,5 @@ def solution(array, commands):
         answer.append(ary[i[2]-1])  
         
     return answer
+
+print(solution(array, commands))
